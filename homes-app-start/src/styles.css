@@ -19,4 +19,9 @@
     background: var(--primary-color);
     color: white;
     border-radius: 8px;
+
+    &[disabled] {
+      opacity: .2;
+      cursor:not-allowed;
+    }
   } 
